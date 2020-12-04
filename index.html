@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Style CSS-->
+    <link rel="stylesheet" href="style.css">
+    <!-- Icon -->
+    <link rel="icon" type="image/jpg" href="icon.jpg">
+    <title>Momentum semi-clone</title>
+</head>
+<body>
+  
+<!-- Main content -->
+<div class="main">
+   <time id="time"></time>
+    <h1>
+        <span id="greeting">Good Afternoon!</span>
+        <span id="name" contenteditable="true"></span>
+    </h1>
+
+    <h2 id="mainGoal" class="goal">What is your main goal for today?</h2>
+
+    <!-- todo list -->
+    <input class="focus-input" type="text" autofocus="autofocus"/>
+    <ul class="to-do"></ul>
+</div>
+<!-- End main content-->
+
+<!-- Quotes and author -->
+<div class="quotes">
+    <h5 id="content"></h5>
+    <h6 id="author"></h6>
+</div>
+<!-- End quotes and author -->
+
+<!-- Javascript files -->
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="script.js"></script>
+    
+</body>
+</html>
